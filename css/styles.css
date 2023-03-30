@@ -1,0 +1,22 @@
+body
+{
+background-color: #E5E5E5;
+}
+.page-header {
+    background-color: #FFFFFF;
+    
+}
+.first-screen {
+    position: absolute;
+    width: 1440;
+    height: 600;
+    left: 0;
+    top: 72;
+    background-color: #2E2F42;   
+}
+.team-section {
+    background-color: #F4F4FD;
+}
+.page-footer {
+    background-color: #2E2F42;
+}
