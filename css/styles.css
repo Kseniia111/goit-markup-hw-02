@@ -96,3 +96,65 @@ color: var(--ocean);
 .btn-hero:focus {
     background-color: var(--ocean);
 }
+
+/*title*/
+.title
+{
+    color: var(--navy-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*subtitle*/
+.subtitle {
+    color: var(--navy-blue);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-subtitle{
+    background-color: var(--white);
+    text-align: center;
+}
+
+/*text*/
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-text {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+/*dep-btn*/
+.dep-btn {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+}
+.button {
+    background-color: var(--iris);
+}
+.button:hover,
+.button:focus {
+    background-color: var(--ocean);
+}
+/*footer*/
+.page-footer {
+    color: var(--cloud);
+    background-color: var(--navy-blue);
+}
