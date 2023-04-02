@@ -135,6 +135,9 @@ color: var(--ocean);
 .team-section {
     background-color: var(--cloud);
 }
+.desk {
+    background-color: var(--white);
+}
 
 /*dep-btn*/
 .dep-btn {
