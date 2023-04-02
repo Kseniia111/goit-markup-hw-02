@@ -17,7 +17,7 @@
 
 body
 {
-font-family: Roboto; font-family: sans-serif;
+font-family: "Roboto", sans-serif;
 color: var(--slate);
 background-color: var(--white);
 }
@@ -88,7 +88,7 @@ color: var(--ocean);
 /*hero button*/
 .hero-btn {
     color: var(--white);
-    background-color: var(--iris);
+    background-color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -105,24 +105,23 @@ color: var(--ocean);
 .title
 {
     color: var(--navy-blue);
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-/*subtitle*/
-.subtitle {
-
-    color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.team-subtitle{
+
+/*subtitle*/
+.subtitle {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-title{
     background-color: var(--white);
+    color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -131,23 +130,16 @@ color: var(--ocean);
 }
 
 /*text*/
-.text {
+.team-text {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.team-text {
-    background-color: var(--white);
-    text-align: center;
-}
 
 .team-section {
     background-color: var(--cloud);
-}
-.desk {
-    background-color: var(--white);
 }
 
 /*dep-btn*/
