@@ -1,4 +1,3 @@
-
 :root {
     --primary-font: Roboto; font-family: sans-serif;
     --iris: #4d5ae5;
@@ -101,42 +100,33 @@ color: var(--ocean);
     background-color: var(--ocean);
 }
 
-/*title*/
-.title
-{
+.title {
     color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-/*subtitle*/
-.subtitle {
-    color: var(--slate);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.team-title{
-    background-color: var(--white);
-    color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-/*text*/
-.team-text {
+.subtitle {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.text {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 
 .team-section {
     background-color: var(--cloud);
@@ -159,6 +149,8 @@ color: var(--ocean);
     color: var(--white);
     background-color: var(--ocean);
 }
+
+
 /*footer*/
 .page-footer {
     color: var(--cloud);
