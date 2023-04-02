@@ -17,7 +17,7 @@
 
 body
 {
-font-family: var(--primary-font);
+font-family: Roboto; font-family: sans-serif;
 color: var(--slate);
 background-color: var(--white);
 }
@@ -54,6 +54,10 @@ background-color: var(--white);
 color: var(--ocean);
 }
 
+/*header-adress*/
+.header-adress {
+    font-style: normal;
+}
 /*adress link*/
 .adress-link {
     color: var(--slate);
@@ -110,18 +114,25 @@ color: var(--ocean);
 
 /*subtitle*/
 .subtitle {
+
     color: var(--navy-blue);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .team-subtitle{
     background-color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 /*text*/
 .text {
+    color: var(--slate);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -141,7 +152,9 @@ color: var(--ocean);
 
 /*dep-btn*/
 .dep-btn {
-    font-family: "Roboto";
+    color: var(--iris);
+    background-color: var(--cloud);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -149,11 +162,9 @@ color: var(--ocean);
     text-align: center;
     cursor: pointer;
 }
-.button {
-    background-color: var(--iris);
-}
-.button:hover,
-.button:focus {
+.dep-btn:hover,
+.dep-btn:focus {
+    color: var(--white);
     background-color: var(--ocean);
 }
 /*footer*/
