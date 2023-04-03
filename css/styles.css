@@ -98,7 +98,7 @@ color: var(--ocean);
 }
 .btn-hero:hover,
 .btn-hero:focus {
-    background-color: var(--ocean);
+    background-color: #404bbf;
 }
 
 .title {
@@ -120,6 +120,14 @@ color: var(--ocean);
 
 }
 
+.inform-subtitle {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
 .text {
     color: var(--slate);
     font-weight: 400;
@@ -132,7 +140,7 @@ color: var(--ocean);
     background-color: var(--white);
 }
 
-.team-section {
+.team-list {
     background-color: var(--cloud);
 }
 
