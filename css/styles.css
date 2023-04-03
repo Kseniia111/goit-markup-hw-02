@@ -1,3 +1,4 @@
+
 :root {
     --primary-font: Roboto; font-family: sans-serif;
     --iris: #4d5ae5;
@@ -87,7 +88,7 @@ color: var(--ocean);
 /*hero button*/
 .hero-btn {
     color: var(--white);
-    background-color: #404BBF;
+    background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -127,6 +128,9 @@ color: var(--ocean);
     letter-spacing: 0.02em;
 }
 
+.inform-title {
+    background-color: var(--white);
+}
 
 .team-section {
     background-color: var(--cloud);
