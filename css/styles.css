@@ -98,7 +98,7 @@ color: var(--ocean);
 }
 .btn-hero:hover,
 .btn-hero:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .title {
@@ -127,13 +127,14 @@ color: var(--ocean);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
 .team-section {
     background-color: #F4F4FD;
 }
 .team-list {
     background-color: var(--cloud);
+}
+.item {
+    background-color: #ffffff;
 }
 
 /*dep-btn*/
