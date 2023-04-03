@@ -96,9 +96,9 @@ color: var(--ocean);
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.btn-hero:hover,
-.btn-hero:focus {
-    background-color: #404bbf;
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean);
 }
 
 .title {
